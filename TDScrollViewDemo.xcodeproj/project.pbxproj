@@ -15,6 +15,11 @@
 		B9C216051BD0A02100DF6C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C216031BD0A02100DF6C0A /* LaunchScreen.storyboard */; };
 		B9C216101BD0A02100DF6C0A /* TDScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C2160F1BD0A02100DF6C0A /* TDScrollViewDemoTests.m */; };
 		B9C2161B1BD0A02100DF6C0A /* TDScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C2161A1BD0A02100DF6C0A /* TDScrollViewDemoUITests.m */; };
+		B9C2162B1BD0A0C500DF6C0A /* TDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C2162A1BD0A0C500DF6C0A /* TDScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		B9C216301BD0D05A00DF6C0A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9C2162C1BD0D05A00DF6C0A /* 1.jpg */; settings = {ASSET_TAGS = (); }; };
+		B9C216311BD0D05A00DF6C0A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9C2162D1BD0D05A00DF6C0A /* 2.jpg */; settings = {ASSET_TAGS = (); }; };
+		B9C216321BD0D05A00DF6C0A /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9C2162E1BD0D05A00DF6C0A /* 3.jpg */; settings = {ASSET_TAGS = (); }; };
+		B9C216331BD0D05A00DF6C0A /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9C2162F1BD0D05A00DF6C0A /* 4.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		B9C216161BD0A02100DF6C0A /* TDScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C2161A1BD0A02100DF6C0A /* TDScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDScrollViewDemoUITests.m; sourceTree = "<group>"; };
 		B9C2161C1BD0A02100DF6C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C216291BD0A0C500DF6C0A /* TDScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDScrollView.h; sourceTree = "<group>"; };
+		B9C2162A1BD0A0C500DF6C0A /* TDScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDScrollView.m; sourceTree = "<group>"; };
+		B9C2162C1BD0D05A00DF6C0A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		B9C2162D1BD0D05A00DF6C0A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		B9C2162E1BD0D05A00DF6C0A /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		B9C2162F1BD0D05A00DF6C0A /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,7 @@
 		B9C215E91BD0A02100DF6C0A = {
 			isa = PBXGroup;
 			children = (
+				B9C216281BD0A0A300DF6C0A /* TDScrollView */,
 				B9C215F41BD0A02100DF6C0A /* TDScrollViewDemo */,
 				B9C2160E1BD0A02100DF6C0A /* TDScrollViewDemoTests */,
 				B9C216191BD0A02100DF6C0A /* TDScrollViewDemoUITests */,
@@ -117,6 +129,10 @@
 		B9C215F51BD0A02100DF6C0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B9C2162C1BD0D05A00DF6C0A /* 1.jpg */,
+				B9C2162D1BD0D05A00DF6C0A /* 2.jpg */,
+				B9C2162E1BD0D05A00DF6C0A /* 3.jpg */,
+				B9C2162F1BD0D05A00DF6C0A /* 4.jpg */,
 				B9C215F61BD0A02100DF6C0A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +154,15 @@
 				B9C2161C1BD0A02100DF6C0A /* Info.plist */,
 			);
 			path = TDScrollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		B9C216281BD0A0A300DF6C0A /* TDScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B9C216291BD0A0C500DF6C0A /* TDScrollView.h */,
+				B9C2162A1BD0A0C500DF6C0A /* TDScrollView.m */,
+			);
+			path = TDScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C216051BD0A02100DF6C0A /* LaunchScreen.storyboard in Resources */,
+				B9C216331BD0D05A00DF6C0A /* 4.jpg in Resources */,
+				B9C216301BD0D05A00DF6C0A /* 1.jpg in Resources */,
+				B9C216311BD0D05A00DF6C0A /* 2.jpg in Resources */,
+				B9C216321BD0D05A00DF6C0A /* 3.jpg in Resources */,
 				B9C216021BD0A02100DF6C0A /* Assets.xcassets in Resources */,
 				B9C216001BD0A02100DF6C0A /* Main.storyboard in Resources */,
 			);
@@ -273,6 +302,7 @@
 				B9C215FD1BD0A02100DF6C0A /* ViewController.m in Sources */,
 				B9C215FA1BD0A02100DF6C0A /* AppDelegate.m in Sources */,
 				B9C215F71BD0A02100DF6C0A /* main.m in Sources */,
+				B9C2162B1BD0A0C500DF6C0A /* TDScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

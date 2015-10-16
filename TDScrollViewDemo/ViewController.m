@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TDScrollView.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSArray *array = [[NSArray alloc]initWithObjects:
+                      [UIImage imageNamed:@"1.jpg"],
+                      [UIImage imageNamed:@"2.jpg"],
+                      [UIImage imageNamed:@"3.jpg"],
+                      [UIImage imageNamed:@"4.jpg"],
+                      nil];
+    
+    TDScrollView *tdScrollView = [[TDScrollView alloc]initWithFrame:CGRectMake(50, 100, 300, 300) imageArray:array];
+    [self.view addSubview:tdScrollView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
